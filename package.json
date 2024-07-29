@@ -12,12 +12,12 @@
     "lint:fix": "npm run lint --fix",
     "prettier": "prettier --check .",
     "prettier:write": "prettier --write .",
-    "prepare": "husky"
+    "prepare": "husky install | chmod ug+x .husky/*"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
       "npm run lint:fix",
-      "npm run prettier"
+      "npm run prettier:write"
     ]
   },
   "dependencies": {

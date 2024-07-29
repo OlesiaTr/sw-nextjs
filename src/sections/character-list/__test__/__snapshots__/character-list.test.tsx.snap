@@ -1,0 +1,197 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CharacterList renders the character list correctly 1`] = `
+<DocumentFragment>
+  <ul
+    class="m-auto grid max-w-[calc(100vw-100px)] grid-cols-1 justify-items-center gap-5 lg:grid-cols-2 xl:grid-cols-3"
+    data-testid="character-list-test-id"
+  >
+    <li
+      class="flex flex-col justify-between bg-white rounded-xl p-5 cursor-pointer shadow transition hover:scale-95 hover:bg-custom-gradient w-[400px]"
+    >
+      <div
+        class="flex justify-between mb-3"
+      >
+        <h3
+          class="text-2xl text-accent uppercase font-black"
+        >
+          Luke Skywalker
+        </h3>
+        <p
+          class="font-medium uppercase text-lg "
+        >
+          male
+        </p>
+      </div>
+      <div
+        class="bg-mainGray py-1 px-3 rounded-sm border-borderGray"
+      >
+        <div
+          class="flex flex-wrap justify-between mb-3 font-medium "
+        >
+          <p
+            class="w-1/2 mb-2"
+          >
+            <span
+              class="font-semibold"
+            >
+              Birth Year:
+            </span>
+             19BBY
+          </p>
+          <p
+            class="w-1/2 mb-2"
+          >
+            <span
+              class="font-semibold"
+            >
+              Height:
+            </span>
+             172 cm
+          </p>
+          <p
+            class="w-1/2 mb-2"
+          >
+            <span
+              class="font-semibold"
+            >
+              Mass:
+            </span>
+             77 kg
+          </p>
+          <p
+            class="w-1/2 mb-2"
+          >
+            <span
+              class="font-semibold"
+            >
+              Hair Color:
+            </span>
+             blond
+          </p>
+          <p
+            class="w-1/2 mb-2"
+          >
+            <span
+              class="font-semibold"
+            >
+              Skin Color:
+            </span>
+             fair
+          </p>
+          <p
+            class="w-1/2 mb-2"
+          >
+            <span
+              class="font-semibold"
+            >
+              Eye Color:
+            </span>
+             blue
+          </p>
+        </div>
+        <div>
+          <p
+            class="text-2xl font-bold"
+          >
+            Homeworld: 20
+          </p>
+        </div>
+      </div>
+    </li>
+    <li
+      class="flex flex-col justify-between bg-white rounded-xl p-5 cursor-pointer shadow transition hover:scale-95 hover:bg-custom-gradient w-[400px]"
+    >
+      <div
+        class="flex justify-between mb-3"
+      >
+        <h3
+          class="text-2xl text-accent uppercase font-black"
+        >
+          Darth Vader
+        </h3>
+        <p
+          class="font-medium uppercase text-lg "
+        >
+          male
+        </p>
+      </div>
+      <div
+        class="bg-mainGray py-1 px-3 rounded-sm border-borderGray"
+      >
+        <div
+          class="flex flex-wrap justify-between mb-3 font-medium "
+        >
+          <p
+            class="w-1/2 mb-2"
+          >
+            <span
+              class="font-semibold"
+            >
+              Birth Year:
+            </span>
+             41.9BBY
+          </p>
+          <p
+            class="w-1/2 mb-2"
+          >
+            <span
+              class="font-semibold"
+            >
+              Height:
+            </span>
+             202 cm
+          </p>
+          <p
+            class="w-1/2 mb-2"
+          >
+            <span
+              class="font-semibold"
+            >
+              Mass:
+            </span>
+             136 kg
+          </p>
+          <p
+            class="w-1/2 mb-2"
+          >
+            <span
+              class="font-semibold"
+            >
+              Hair Color:
+            </span>
+             none
+          </p>
+          <p
+            class="w-1/2 mb-2"
+          >
+            <span
+              class="font-semibold"
+            >
+              Skin Color:
+            </span>
+             white
+          </p>
+          <p
+            class="w-1/2 mb-2"
+          >
+            <span
+              class="font-semibold"
+            >
+              Eye Color:
+            </span>
+             yellow
+          </p>
+        </div>
+        <div>
+          <p
+            class="text-2xl font-bold"
+          >
+            Homeworld: 20
+          </p>
+        </div>
+      </div>
+    </li>
+  </ul>
+</DocumentFragment>
+`;
