@@ -1,4 +1,4 @@
-import { Film, Starship } from './types';
+import { Film, Starship } from '../types';
 
 export const getStarshipEdges = (starships: Starship[], films: Film[]) => {
   const starshipIdSet = new Set(starships.map(starship => starship.id));
