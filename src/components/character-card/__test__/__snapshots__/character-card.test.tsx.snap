@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CharacterCard renders character details correctly 1`] = `
+<DocumentFragment>
+  <li
+    class="flex w-[400px] cursor-pointer flex-col justify-between rounded-xl bg-white p-5 shadow transition hover:scale-95 hover:bg-custom-gradient"
+    data-testid="character-card-1-test-id"
+  >
+    <div
+      class="mb-3 flex justify-between"
+    >
+      <h3
+        class="text-2xl font-black uppercase text-accent"
+      >
+        Luke Skywalker
+      </h3>
+      <p
+        class="text-lg font-medium uppercase"
+      >
+        male
+      </p>
+    </div>
+    <div
+      class="rounded-sm border-borderGray bg-mainGray px-3 py-1"
+    >
+      <div
+        class="mb-3 flex flex-wrap justify-between font-medium"
+      >
+        <p
+          class="mb-2 w-1/2"
+        >
+          <span
+            class="font-semibold"
+          >
+            Birth Year:
+          </span>
+           19BBY
+        </p>
+        <p
+          class="mb-2 w-1/2"
+        >
+          <span
+            class="font-semibold"
+          >
+            Height:
+          </span>
+           172 cm
+        </p>
+        <p
+          class="mb-2 w-1/2"
+        >
+          <span
+            class="font-semibold"
+          >
+            Mass:
+          </span>
+           77 kg
+        </p>
+        <p
+          class="mb-2 w-1/2"
+        >
+          <span
+            class="font-semibold"
+          >
+            Hair Color:
+          </span>
+           blond
+        </p>
+        <p
+          class="mb-2 w-1/2"
+        >
+          <span
+            class="font-semibold"
+          >
+            Skin Color:
+          </span>
+           fair
+        </p>
+        <p
+          class="mb-2 w-1/2"
+        >
+          <span
+            class="font-semibold"
+          >
+            Eye Color:
+          </span>
+           blue
+        </p>
+      </div>
+      <div>
+        <p
+          class="text-2xl font-bold"
+        >
+          Homeworld: 20
+        </p>
+      </div>
+    </div>
+  </li>
+</DocumentFragment>
+`;
