@@ -1,0 +1,539 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomePage displays the loader when loading is true 1`] = `
+<DocumentFragment>
+  <main>
+    <div
+      aria-busy="true"
+      aria-label="rings-loading"
+      class="sc-braxZu juNRvt"
+      data-testid="rings-loading"
+      role="progressbar"
+      style="position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);"
+    >
+      <svg
+        data-testid="rings-svg"
+        height="200"
+        stroke="#0C0B0B"
+        viewBox="0 0 45 45"
+        width="200"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          fill="none"
+          fill-rule="evenodd"
+          stroke-width="2"
+          transform="translate(1 1)"
+        >
+          <circle
+            cx="22"
+            cy="22"
+            r="6"
+            stroke-opacity="0"
+          >
+            <animate
+              attributeName="r"
+              begin="1.5s"
+              calcMode="linear"
+              dur="3s"
+              repeatCount="indefinite"
+              values="6;22"
+            />
+            <animate
+              attributeName="stroke-opacity"
+              begin="1.5s"
+              calcMode="linear"
+              dur="3s"
+              repeatCount="indefinite"
+              values="1;0"
+            />
+            <animate
+              attributeName="stroke-width"
+              begin="1.5s"
+              calcMode="linear"
+              dur="3s"
+              repeatCount="indefinite"
+              values="2;0"
+            />
+          </circle>
+          <circle
+            cx="22"
+            cy="22"
+            r="6"
+            stroke-opacity="0"
+          >
+            <animate
+              attributeName="r"
+              begin="3s"
+              calcMode="linear"
+              dur="3s"
+              repeatCount="indefinite"
+              values="6;22"
+            />
+            <animate
+              attributeName="strokeOpacity"
+              begin="3s"
+              calcMode="linear"
+              dur="3s"
+              repeatCount="indefinite"
+              values="1;0"
+            />
+            <animate
+              attributeName="strokeWidth"
+              begin="3s"
+              calcMode="linear"
+              dur="3s"
+              repeatCount="indefinite"
+              values="2;0"
+            />
+          </circle>
+          <circle
+            cx="22"
+            cy="22"
+            r="8"
+          >
+            <animate
+              attributeName="r"
+              begin="0s"
+              calcMode="linear"
+              dur="1.5s"
+              repeatCount="indefinite"
+              values="6;1;2;3;4;5;6"
+            />
+          </circle>
+        </g>
+      </svg>
+    </div>
+    <h1
+      class="text-4xl text-accent uppercase font-black text-center my-6"
+    >
+      StarWars Characters List
+    </h1>
+    <ul
+      class="m-auto grid max-w-[calc(100vw-100px)] grid-cols-1 justify-items-center gap-5 lg:grid-cols-2 xl:grid-cols-3"
+      data-testid="character-list-test-id"
+    />
+  </main>
+</DocumentFragment>
+`;
+
+exports[`HomePage renders the CharacterList component with correct props 1`] = `
+<DocumentFragment>
+  <main>
+    <h1
+      class="text-4xl text-accent uppercase font-black text-center my-6"
+    >
+      StarWars Characters List
+    </h1>
+    <ul
+      class="m-auto grid max-w-[calc(100vw-100px)] grid-cols-1 justify-items-center gap-5 lg:grid-cols-2 xl:grid-cols-3"
+      data-testid="character-list-test-id"
+    >
+      <li
+        class="flex w-[400px] cursor-pointer flex-col justify-between rounded-xl bg-white p-5 shadow transition hover:scale-95 hover:bg-custom-gradient"
+        data-testid="character-card-1-test-id"
+      >
+        <div
+          class="mb-3 flex justify-between"
+        >
+          <h3
+            class="text-2xl font-black uppercase text-accent"
+          >
+            Luke Skywalker
+          </h3>
+          <p
+            class="text-lg font-medium uppercase"
+          >
+            male
+          </p>
+        </div>
+        <div
+          class="rounded-sm border-borderGray bg-mainGray px-3 py-1"
+        >
+          <div
+            class="mb-3 flex flex-wrap justify-between font-medium"
+          >
+            <p
+              class="mb-2 w-1/2"
+            >
+              <span
+                class="font-semibold"
+              >
+                Birth Year:
+              </span>
+               19BBY
+            </p>
+            <p
+              class="mb-2 w-1/2"
+            >
+              <span
+                class="font-semibold"
+              >
+                Height:
+              </span>
+               172 cm
+            </p>
+            <p
+              class="mb-2 w-1/2"
+            >
+              <span
+                class="font-semibold"
+              >
+                Mass:
+              </span>
+               77 kg
+            </p>
+            <p
+              class="mb-2 w-1/2"
+            >
+              <span
+                class="font-semibold"
+              >
+                Hair Color:
+              </span>
+               blond
+            </p>
+            <p
+              class="mb-2 w-1/2"
+            >
+              <span
+                class="font-semibold"
+              >
+                Skin Color:
+              </span>
+               fair
+            </p>
+            <p
+              class="mb-2 w-1/2"
+            >
+              <span
+                class="font-semibold"
+              >
+                Eye Color:
+              </span>
+               blue
+            </p>
+          </div>
+          <div>
+            <p
+              class="text-2xl font-bold"
+            >
+              Homeworld: 20
+            </p>
+          </div>
+        </div>
+      </li>
+      <li
+        class="flex w-[400px] cursor-pointer flex-col justify-between rounded-xl bg-white p-5 shadow transition hover:scale-95 hover:bg-custom-gradient"
+        data-testid="character-card-2-test-id"
+      >
+        <div
+          class="mb-3 flex justify-between"
+        >
+          <h3
+            class="text-2xl font-black uppercase text-accent"
+          >
+            Darth Vader
+          </h3>
+          <p
+            class="text-lg font-medium uppercase"
+          >
+            male
+          </p>
+        </div>
+        <div
+          class="rounded-sm border-borderGray bg-mainGray px-3 py-1"
+        >
+          <div
+            class="mb-3 flex flex-wrap justify-between font-medium"
+          >
+            <p
+              class="mb-2 w-1/2"
+            >
+              <span
+                class="font-semibold"
+              >
+                Birth Year:
+              </span>
+               41.9BBY
+            </p>
+            <p
+              class="mb-2 w-1/2"
+            >
+              <span
+                class="font-semibold"
+              >
+                Height:
+              </span>
+               202 cm
+            </p>
+            <p
+              class="mb-2 w-1/2"
+            >
+              <span
+                class="font-semibold"
+              >
+                Mass:
+              </span>
+               136 kg
+            </p>
+            <p
+              class="mb-2 w-1/2"
+            >
+              <span
+                class="font-semibold"
+              >
+                Hair Color:
+              </span>
+               none
+            </p>
+            <p
+              class="mb-2 w-1/2"
+            >
+              <span
+                class="font-semibold"
+              >
+                Skin Color:
+              </span>
+               white
+            </p>
+            <p
+              class="mb-2 w-1/2"
+            >
+              <span
+                class="font-semibold"
+              >
+                Eye Color:
+              </span>
+               yellow
+            </p>
+          </div>
+          <div>
+            <p
+              class="text-2xl font-bold"
+            >
+              Homeworld: 20
+            </p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </main>
+</DocumentFragment>
+`;
+
+exports[`HomePage renders the GraphModal when isOpenModal is true 1`] = `
+<DocumentFragment>
+  <main>
+    <h1
+      class="text-4xl text-accent uppercase font-black text-center my-6"
+    >
+      StarWars Characters List
+    </h1>
+    <ul
+      class="m-auto grid max-w-[calc(100vw-100px)] grid-cols-1 justify-items-center gap-5 lg:grid-cols-2 xl:grid-cols-3"
+      data-testid="character-list-test-id"
+    />
+    <div
+      class="bg-op fixed inset-0 z-30 flex h-screen w-screen items-center justify-center bg-black bg-opacity-50"
+      data-testid="modal-overlay-test-id"
+    >
+      <div
+        class="relative h-2/3 w-4/5 max-w-3xl rounded-lg bg-white p-6 shadow-lg"
+        data-testid="graph-modal-test-id"
+      >
+        <a
+          class="mb-3 block text-center font-semibold text-accent"
+          href="/character/1"
+        >
+           Click here to see full information on a separate page
+        </a>
+        <div
+          class="container mx-auto h-[60vh] w-full"
+        >
+          <div
+            class="react-flow"
+            data-testid="rf__wrapper"
+            style="width: 100%; height: 100%; overflow: hidden; position: relative; z-index: 0;"
+          >
+            <div
+              class="react-flow__renderer"
+              style="position: absolute; width: 100%; height: 100%; top: 0px; left: 0px;"
+            >
+              <div
+                class="react-flow__pane"
+                style="position: absolute; width: 100%; height: 100%; top: 0px; left: 0px;"
+              >
+                <div
+                  class="react-flow__viewport react-flow__container"
+                  style="transform: translate(0px,0px) scale(1);"
+                >
+                  <svg
+                    class="react-flow__edges react-flow__container"
+                    height="500"
+                    style="z-index: 0;"
+                    width="500"
+                  >
+                    <defs />
+                    <g />
+                  </svg>
+                  <div
+                    class="react-flow__edgelabel-renderer"
+                  />
+                  <div
+                    class="react-flow__nodes"
+                    style="position: absolute; width: 100%; height: 100%; top: 0px; left: 0px;"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="react-flow__panel react-flow__controls bottom left"
+              data-testid="rf__controls"
+              style="pointer-events: all;"
+            >
+              <button
+                aria-label="zoom in"
+                class="react-flow__controls-button react-flow__controls-zoomin"
+                title="zoom in"
+                type="button"
+              >
+                <svg
+                  viewBox="0 0 32 32"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M32 18.133H18.133V32h-4.266V18.133H0v-4.266h13.867V0h4.266v13.867H32z"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-label="zoom out"
+                class="react-flow__controls-button react-flow__controls-zoomout"
+                title="zoom out"
+                type="button"
+              >
+                <svg
+                  viewBox="0 0 32 5"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0 0h32v4.2H0z"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-label="fit view"
+                class="react-flow__controls-button react-flow__controls-fitview"
+                title="fit view"
+                type="button"
+              >
+                <svg
+                  viewBox="0 0 32 30"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M3.692 4.63c0-.53.4-.938.939-.938h5.215V0H4.708C2.13 0 0 2.054 0 4.63v5.216h3.692V4.631zM27.354 0h-5.2v3.692h5.17c.53 0 .984.4.984.939v5.215H32V4.631A4.624 4.624 0 0027.354 0zm.954 24.83c0 .532-.4.94-.939.94h-5.215v3.768h5.215c2.577 0 4.631-2.13 4.631-4.707v-5.139h-3.692v5.139zm-23.677.94c-.531 0-.939-.4-.939-.94v-5.138H0v5.139c0 2.577 2.13 4.707 4.708 4.707h5.138V25.77H4.631z"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-label="toggle interactivity"
+                class="react-flow__controls-button react-flow__controls-interactive"
+                title="toggle interactivity"
+                type="button"
+              >
+                <svg
+                  viewBox="0 0 25 32"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M21.333 10.667H19.81V7.619C19.81 3.429 16.38 0 12.19 0c-4.114 1.828-1.37 2.133.305 2.438 1.676.305 4.42 2.59 4.42 5.181v3.048H3.047A3.056 3.056 0 000 13.714v15.238A3.056 3.056 0 003.048 32h18.285a3.056 3.056 0 003.048-3.048V13.714a3.056 3.056 0 00-3.048-3.047zM12.19 24.533a3.056 3.056 0 01-3.047-3.047 3.056 3.056 0 013.047-3.048 3.056 3.056 0 013.048 3.048 3.056 3.056 0 01-3.048 3.047z"
+                  />
+                </svg>
+              </button>
+            </div>
+            <svg
+              class="react-flow__background"
+              data-testid="rf__background"
+              style="position: absolute; width: 100%; height: 100%; top: 0px; left: 0px;"
+            >
+              <pattern
+                height="24"
+                id="pattern-1undefined"
+                patternTransform="translate(-1,-1)"
+                patternUnits="userSpaceOnUse"
+                width="24"
+                x="0"
+                y="0"
+              >
+                <circle
+                  cx="1"
+                  cy="1"
+                  fill="#91919a"
+                  r="1"
+                />
+              </pattern>
+              <rect
+                fill="url(#pattern-1undefined)"
+                height="100%"
+                width="100%"
+                x="0"
+                y="0"
+              />
+            </svg>
+            <div
+              class="react-flow__panel react-flow__attribution bottom right"
+              data-message="Please only hide this attribution when you are subscribed to React Flow Pro: https://reactflow.dev/pro"
+              style="pointer-events: all;"
+            >
+              <a
+                aria-label="React Flow attribution"
+                href="https://reactflow.dev"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                React Flow
+              </a>
+            </div>
+            <div
+              id="react-flow__node-desc-1"
+              style="display: none;"
+            >
+              Press enter or space to select a node.You can then use the arrow keys to move the node around. Press delete to remove it and escape to cancel. 
+            </div>
+            <div
+              id="react-flow__edge-desc-1"
+              style="display: none;"
+            >
+              Press enter or space to select an edge. You can then press delete to remove it or escape to cancel.
+            </div>
+            <div
+              aria-atomic="true"
+              aria-live="assertive"
+              id="react-flow__aria-live-1"
+              style="position: absolute; width: 1px; height: 1px; margin: -1px; border: 0px; padding: 0px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); clip-path: inset(100%);"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</DocumentFragment>
+`;
+
+exports[`HomePage renders the heading 1`] = `
+<DocumentFragment>
+  <main>
+    <h1
+      class="text-4xl text-accent uppercase font-black text-center my-6"
+    >
+      StarWars Characters List
+    </h1>
+    <ul
+      class="m-auto grid max-w-[calc(100vw-100px)] grid-cols-1 justify-items-center gap-5 lg:grid-cols-2 xl:grid-cols-3"
+      data-testid="character-list-test-id"
+    />
+  </main>
+</DocumentFragment>
+`;
