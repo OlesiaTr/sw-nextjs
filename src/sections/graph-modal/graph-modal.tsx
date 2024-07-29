@@ -17,7 +17,7 @@ const GraphModal: FC<Props> = ({ characterId, handleCloseModal }) => {
     <div
       onClick={handleCloseModal}
       data-testid={MODAL_OVERLAY_TEST_ID}
-      className="fixed inset-0 z-30 flex h-screen w-screen items-center justify-center bg-black bg-opacity-50"
+      className="fixed inset-0 z-30 flex h-screen w-screen items-center justify-center bg-black/45"
     >
       <div
         className="relative h-2/3 w-4/5 max-w-3xl rounded-lg bg-white p-6 shadow-lg"

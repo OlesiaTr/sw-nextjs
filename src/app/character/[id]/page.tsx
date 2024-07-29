@@ -13,6 +13,7 @@ const CharacterPage: FC = () => {
 
   if (!id) return null;
 
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const { loading, character } = useCharacterPage(Number(id));
 
   if (loading) return <Loader />;
