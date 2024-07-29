@@ -6,6 +6,9 @@
 # testing
 /coverage
 
+# Ignore Jest test files
+**/*.test.tsx
+
 # next.js
 /.next/
 /out/
