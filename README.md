@@ -12,7 +12,7 @@ information about the spaceships and movies associated with each character.
 - Tailwind CSS
 - Axios
 
-## For a preview of the project [click here](PUT LINK HERE).
+## For a preview of the project [click here](https://sw-nextjs.vercel.app/).
 
 ## Launch Instructions:
 
