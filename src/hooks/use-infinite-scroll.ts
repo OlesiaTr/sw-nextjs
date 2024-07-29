@@ -1,9 +1,9 @@
-import { useEffect } from 'react'
+import { useEffect } from 'react';
 
 interface UseInfiniteScrollProps {
-  loading: boolean
-  currentPage: number
-  loadMore: () => void
+  loading: boolean;
+  currentPage: number;
+  loadMore: () => void;
 }
 
 export const useInfiniteScroll = ({
@@ -19,12 +19,12 @@ export const useInfiniteScroll = ({
         !loading
       ) {
         if (currentPage) {
-          loadMore()
+          loadMore();
         }
       }
-    }
+    };
 
-    window.addEventListener('scroll', handleScroll)
-    return () => window.removeEventListener('scroll', handleScroll)
-  }, [currentPage, loading, loadMore])
-}
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [currentPage, loading, loadMore]);
+};

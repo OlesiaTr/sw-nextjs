@@ -1,5 +1,5 @@
-import { CustomError } from './types'
+import { CustomError } from './types';
 
 export const logger = (error: CustomError): void => {
-  console.error(error)
-}
+  console.error(error);
+};

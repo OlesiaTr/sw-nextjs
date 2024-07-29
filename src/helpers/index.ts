@@ -3,7 +3,7 @@ export {
   loadCharacters,
   loadFilms,
   loadStarships,
-} from './api-data'
+} from './api-data';
 export {
   getCharacterNode,
   getFilmEdges,
@@ -11,6 +11,6 @@ export {
   getGraphData,
   getStarshipEdges,
   getStarshipNodes,
-} from './graph-data'
-export { logger } from './logger'
-export type { Character, Film, Starship } from './types'
+} from './graph-data';
+export { logger } from './logger';
+export type { Character, Film, Starship } from './types';

@@ -11,7 +11,6 @@ information about the spaceships and movies associated with each character.
 - Jest
 - Tailwind CSS
 - Axios
-- Husky
 
 ## For a preview of the project [click here](PUT LINK HERE).
 

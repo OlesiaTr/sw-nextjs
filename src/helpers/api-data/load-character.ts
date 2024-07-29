@@ -1,13 +1,13 @@
-import { Dispatch, SetStateAction } from 'react'
-import { Character } from '../types'
-import { toast } from 'react-toastify'
-import { logger } from '../logger'
-import { getCharacter } from '@/data'
+import { Dispatch, SetStateAction } from 'react';
+import { Character } from '../types';
+import { toast } from 'react-toastify';
+import { logger } from '../logger';
+import { getCharacter } from '@/data';
 
 interface LoadCharacterParams {
-  setLoading: Dispatch<SetStateAction<boolean>>
-  setCharacter: Dispatch<SetStateAction<Character | undefined>>
-  characterId: number
+  setLoading: Dispatch<SetStateAction<boolean>>;
+  setCharacter: Dispatch<SetStateAction<Character | undefined>>;
+  characterId: number;
 }
 
 export const loadCharacter = async ({
@@ -15,17 +15,17 @@ export const loadCharacter = async ({
   setCharacter,
   characterId,
 }: LoadCharacterParams) => {
-  setLoading(true)
+  setLoading(true);
   try {
-    const data = await getCharacter(characterId)
+    const data = await getCharacter(characterId);
 
-    setCharacter(data)
+    setCharacter(data);
   } catch (error) {
     toast.error('Something went wrong during fetching character data.', {
       autoClose: 4000,
-    })
-    logger(error)
+    });
+    logger(error);
   } finally {
-    setLoading(false)
+    setLoading(false);
   }
-}
+};

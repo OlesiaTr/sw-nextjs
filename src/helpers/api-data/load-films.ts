@@ -1,13 +1,13 @@
-import { Dispatch, SetStateAction } from 'react'
-import { Film } from '../types'
-import { toast } from 'react-toastify'
-import { logger } from '../logger'
-import { getFilmsByCharacterId } from '@/data'
+import { Dispatch, SetStateAction } from 'react';
+import { Film } from '../types';
+import { toast } from 'react-toastify';
+import { logger } from '../logger';
+import { getFilmsByCharacterId } from '@/data';
 
 interface LoadFilmsParams {
-  setLoading: Dispatch<SetStateAction<boolean>>
-  setFilmsList: Dispatch<SetStateAction<Film[] | undefined>>
-  characterId: number
+  setLoading: Dispatch<SetStateAction<boolean>>;
+  setFilmsList: Dispatch<SetStateAction<Film[] | undefined>>;
+  characterId: number;
 }
 
 export const loadFilms = async ({
@@ -15,17 +15,17 @@ export const loadFilms = async ({
   setFilmsList,
   characterId,
 }: LoadFilmsParams) => {
-  setLoading(true)
+  setLoading(true);
   try {
-    const { results } = await getFilmsByCharacterId(characterId)
+    const { results } = await getFilmsByCharacterId(characterId);
 
-    setFilmsList(results)
+    setFilmsList(results);
   } catch (error) {
     toast.error('Something went wrong during fetching character data.', {
       autoClose: 4000,
-    })
-    logger(error)
+    });
+    logger(error);
   } finally {
-    setLoading(false)
+    setLoading(false);
   }
-}
+};
